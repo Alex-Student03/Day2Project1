@@ -34,3 +34,17 @@ If you use PyCharm, you can also run `main.py` from the IDE.
 
 The program opens Google's results page but does not fetch or display the
 actual Google results in the terminal.
+
+## How the code is organized
+
+The program is split into small functions, each responsible for one task:
+
+- `show_welcome()` displays the welcome message.
+- `get_search_term()` asks for the search term.
+- `simulate_data_retrieval()` shows simulated progress and creates example
+  results.
+- `display_summary()` prints the summary and results.
+- `ask_to_open_google()` asks whether to open a Google search.
+- `main()` calls these functions in the correct order and handles empty input.
+
+This separation makes each part easier to understand and reuse.
